@@ -1,6 +1,8 @@
 name = "carrot-sellers-cart"
+main = "worker.js"
 compatibility_date = "2025-01-01"
 
 [assets]
 directory = "./site"
+binding = "ASSETS"
 not_found_handling = "404-page"
