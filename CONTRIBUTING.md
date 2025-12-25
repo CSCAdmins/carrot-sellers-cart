@@ -50,12 +50,69 @@ We evaluate public figures based on five key criteria:
 - Modifications to scoring rubrics
 - New evaluation categories
 
-## 🔧 How to Contribute
+## 🔧 Git Workflow
+
+### Branch Naming Convention
+
+All branches must follow this naming scheme:
+
+| Type | Format | Example |
+|------|--------|---------|
+| New person | `add/<person-name>` | `add/george-knapp` |
+| Profile update | `update/<person-name>` | `update/david-grusch` |
+| Quote addition | `quote/<person-name>-<date>` | `quote/grusch-2024-03` |
+| Bug fix | `fix/<description>` | `fix/broken-links` |
+| Feature | `feature/<description>` | `feature/search-filter` |
+| Documentation | `docs/<description>` | `docs/update-readme` |
+
+### Pull Request Format
+
+**PR Title**: `[TYPE] Brief description`
+
+| Type Tag | Usage |
+|----------|-------|
+| `[ADD]` | New person profile |
+| `[UPDATE]` | Updates to existing profile |
+| `[QUOTE]` | Adding new quotes |
+| `[FIX]` | Bug fixes |
+| `[FEATURE]` | New features |
+| `[DOCS]` | Documentation changes |
+
+**PR Body** (required):
+
+```markdown
+## Summary
+Brief description of changes (1-3 sentences)
+
+## Changes
+- Specific change 1
+- Specific change 2
+
+## Sources
+<!-- Required for content changes -->
+- [Source title](URL) - Description
+- [Source title](URL) - Description
+
+## Testing
+- [ ] Tested locally with `mkdocs serve`
+- [ ] All links verified working
+- [ ] No console errors
+
+## Checklist
+- [ ] Branch follows naming convention
+- [ ] PR title follows format
+- [ ] All quotes are verbatim with sources
+- [ ] Scores have documented rationale
+```
+
+---
+
+## 📝 How to Contribute
 
 ### For Quote Submissions or Corrections
 
 1. **Fork the repository**
-2. **Create a branch**: `git checkout -b add-quote-person-name-date`
+2. **Create a branch**: `git checkout -b quote/person-name-YYYY-MM`
 3. **Make your changes** to the appropriate person's markdown file
 4. **Follow the quote format**:
    ```markdown

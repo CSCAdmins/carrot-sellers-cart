@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Documentation
+    url: https://carrotsellerscart.org/about/
+    about: Read about our methodology and scoring criteria
+  - name: Existing Profiles
+    url: https://carrotsellerscart.org/people/
+    about: View tracked individuals before submitting

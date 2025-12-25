@@ -20,8 +20,8 @@ A MkDocs-based website for tracking and fact-checking claims made by prominent U
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/carrot-sellers-site.git
-cd carrot-sellers-site
+git clone https://github.com/CSCAdmins/carrot-sellers-cart.git
+cd carrot-sellers-cart
 ```
 
 2. Create a virtual environment and install dependencies with uv:
@@ -167,24 +167,52 @@ ruff check .
 
 We welcome contributions to improve the accuracy and completeness of our tracking. Please read our guidelines carefully:
 
-### 📝 **Quick Contributions (Issues/PRs welcome)**
+### Branch Naming Convention
+
+| Type | Format | Example |
+|------|--------|---------|
+| New person | `add/<person-name>` | `add/george-knapp` |
+| Profile update | `update/<person-name>` | `update/david-grusch` |
+| Quote addition | `quote/<person-name>-<date>` | `quote/grusch-2024-03` |
+| Bug fix | `fix/<description>` | `fix/broken-links` |
+| Feature | `feature/<description>` | `feature/search-filter` |
+
+### Pull Request Format
+
+**Title**: `[TYPE] Brief description`
+
+Types: `[ADD]`, `[UPDATE]`, `[QUOTE]`, `[FIX]`, `[FEATURE]`
+
+**Body template**:
+```markdown
+## Summary
+Brief description of changes (1-3 sentences)
+
+## Changes
+- Change 1
+- Change 2
+
+## Sources (for content PRs)
+- [Source title](URL)
+
+## Checklist
+- [ ] Followed branch naming convention
+- [ ] All quotes are verbatim with sources
+- [ ] Tested locally with `mkdocs serve`
+```
+
+### Quick Contributions (Issues/PRs welcome)
 - Quote submissions with sources
 - Corrections to existing information
 - Fact-checking updates
 - Source verification improvements
 
-### 🔄 **Major Contributions (Discussion required)**
+### Major Contributions (Discussion required)
 - **New people**: Must open an Issue first for community discussion (minimum 7 days)
 - Score methodology changes
 - Structural changes to the site
 
-### 🚀 **How to Contribute**
-
-1. **For quotes/corrections**: Fork → Edit → Submit PR
-2. **For new people**: Issue first → Discussion → Approval → Then PR
-3. **For questions**: Open an Issue with appropriate label
-
-### 📋 **Quality Standards**
+### Quality Standards
 - All quotes must be verbatim with exact sources
 - Sources must be publicly verifiable
 - New people must meet influence/impact criteria
