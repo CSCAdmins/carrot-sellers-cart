@@ -52,6 +52,7 @@ nav:
   - Home: index.md
   - People:
     - "Directory": people/index.md
+    - "Jake Barber": people/jake-barber.md
     - "David Grusch": people/david-grusch.md
     - "Luis Elizondo": people/luis-elizondo.md
     - "Ross Coulthart": people/ross-coulthart.md
