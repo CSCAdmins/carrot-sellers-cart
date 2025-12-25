@@ -941,6 +941,100 @@
     line-height: 1.4;
 }
 
+/* Affiliation Badges */
+.affiliation-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 8px 0 12px 0;
+}
+
+.badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-size: 0.7em;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border: 1px solid;
+}
+
+/* Active Clearance - Red/urgent */
+.badge.active-clearance {
+    background-color: #fce4e4;
+    border-color: #d32f2f;
+    color: #b71c1c;
+}
+
+.badge.active-clearance::before {
+    content: "●";
+    font-size: 0.8em;
+}
+
+/* Former IC - Dark gray */
+.badge.former-ic {
+    background-color: #f5f5f5;
+    border-color: #616161;
+    color: #424242;
+}
+
+/* Gov Contractor - Blue */
+.badge.gov-contractor {
+    background-color: #e3f2fd;
+    border-color: #1976d2;
+    color: #0d47a1;
+}
+
+/* Academic - Purple */
+.badge.academic {
+    background-color: #f3e5f5;
+    border-color: #7b1fa2;
+    color: #4a148c;
+}
+
+/* Media/Journalist - Green */
+.badge.media {
+    background-color: #e8f5e9;
+    border-color: #388e3c;
+    color: #1b5e20;
+}
+
+/* Legal - Amber */
+.badge.legal {
+    background-color: #fff8e1;
+    border-color: #f9a825;
+    color: #e65100;
+}
+
+/* Whistleblower - Teal */
+.badge.whistleblower {
+    background-color: #e0f2f1;
+    border-color: #00897b;
+    color: #004d40;
+}
+
+/* Undisclosed Interests - Warning orange */
+.badge.undisclosed {
+    background-color: #fff3e0;
+    border-color: #ef6c00;
+    color: #e65100;
+}
+
+.badge.undisclosed::before {
+    content: "⚠";
+    font-size: 0.9em;
+}
+
+/* Congressional - Navy */
+.badge.congressional {
+    background-color: #e8eaf6;
+    border-color: #3f51b5;
+    color: #1a237e;
+}
+
 /* Last Updated Timestamp */
 .last-updated {
     text-align: right;
