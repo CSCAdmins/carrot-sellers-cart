@@ -1,0 +1,32 @@
+version: '3.8'
+
+services:
+  carrot-sellers:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - PORT=8080
+      - HOST=0.0.0.0
+    restart: unless-stopped
+    
+  # Development service with live reload
+  carrot-sellers-dev:
+    image: cgr.dev/chainguard/python:latest-dev
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+    command: |
+      sh -c "
+        python -m venv /app/venv &&
+        . /app/venv/bin/activate &&
+        pip install -e . &&
+        mkdocs serve --dev-addr 0.0.0.0:8000
+      "
+    restart: unless-stopped

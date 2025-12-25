@@ -1,0 +1,66 @@
+site_name: The Carrot Seller's Cart
+site_url: https://carrotsellerscart.org
+site_description: Tracking credibility in UFO/UAP discourse
+site_author: Carrot Sellers
+
+theme:
+  name: simple-blog
+  custom_dir: overrides
+  palette:
+    primary: indigo
+    accent: deep purple
+  logo: assets/images/carrot-icon.svg
+  language: en
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - macros:
+      module_name: scripts/macros
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - def_list
+
+nav:
+  - Home: index.md
+  - People:
+    - "Directory": people/index.md
+    - "David Grusch": people/david-grusch.md
+    - "Luis Elizondo": people/luis-elizondo.md
+    - "Ross Coulthart": people/ross-coulthart.md
+    - "Danny Sheehan": people/danny-sheehan.md
+    - "Jeremy Corbell": people/jeremy-corbell.md
+  - Data: data.md
+  - About: about.md
+
+extra_css:
+  - stylesheets/extra.css
+
+copyright: "&copy; 2024 Carrot Sellers"

@@ -1,0 +1,51 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <!-- Professional background -->
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#f8f9fa"/>
+      <stop offset="100%" stop-color="#e9ecef"/>
+    </radialGradient>
+  </defs>
+  <rect width="300" height="300" fill="url(#bgGrad)"/>
+  
+  <!-- Face - centered and larger -->
+  <ellipse cx="150" cy="145" rx="50" ry="60" fill="#fdbcb4"/>
+  
+  <!-- Hair -->
+  <path d="M100 90 Q150 70 200 90 Q205 105 200 130 Q195 125 185 125 Q175 120 150 120 Q125 120 115 125 Q105 125 100 130 Q95 105 100 90 Z" fill="#8b4513"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="135" cy="135" rx="9" ry="6" fill="white"/>
+  <ellipse cx="165" cy="135" rx="9" ry="6" fill="white"/>
+  <ellipse cx="135" cy="135" rx="5" ry="5" fill="#4a5568"/>
+  <ellipse cx="165" cy="135" rx="5" ry="5" fill="#4a5568"/>
+  <ellipse cx="136" cy="133" rx="2" ry="2" fill="white"/>
+  <ellipse cx="166" cy="133" rx="2" ry="2" fill="white"/>
+  
+  <!-- Eyebrows -->
+  <path d="M125 125 Q135 122 145 125" stroke="#6b4423" stroke-width="3" fill="none"/>
+  <path d="M155 125 Q165 122 175 125" stroke="#6b4423" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M150 145 L147 155 Q150 158 153 155 Z" fill="#f4a394"/>
+  
+  <!-- Mouth -->
+  <path d="M140 170 Q150 176 160 170" stroke="#d69e2e" stroke-width="3" fill="none"/>
+  
+  <!-- Neck -->
+  <rect x="130" y="200" width="40" height="25" fill="#fdbcb4"/>
+  
+  <!-- Professional shirt/collar -->
+  <path d="M110 225 Q150 220 190 225 L190 300 L110 300 Z" fill="#4a5568"/>
+  <path d="M130 225 Q150 220 170 225 L170 240 Q150 235 130 240 Z" fill="#2d3748"/>
+  
+  <!-- Subtle facial hair -->
+  <path d="M135 180 Q150 184 165 180" stroke="#8b6914" stroke-width="1.5" fill="none" opacity="0.4"/>
+  
+  <!-- Ears -->
+  <ellipse cx="100" cy="145" rx="10" ry="15" fill="#fdbcb4"/>
+  <ellipse cx="200" cy="145" rx="10" ry="15" fill="#fdbcb4"/>
+  
+  <!-- Professional lighting effect -->
+  <ellipse cx="130" cy="125" rx="25" ry="20" fill="white" opacity="0.15"/>
+</svg>

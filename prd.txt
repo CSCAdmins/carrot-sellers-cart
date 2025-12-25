@@ -1,0 +1,65 @@
+PROJECT REQUIREMENTS DOCUMENT (PRD)
+===================================
+Carrot Sellers Site - Server Management
+Last Updated: 2025-07-07
+
+SERVER START/STOP PROCEDURES
+---------------------------
+
+The canonical way to run the Carrot Sellers site is using Docker.
+
+STARTING THE SERVER:
+1. Ensure Docker Desktop is running
+2. Run the Docker start script:
+   ./docker-start.sh
+
+3. This script will:
+   - Check if Docker is running
+   - Build the Docker image named "carrot-sellers"
+   - Stop any existing "carrot-sellers-web" container
+   - Start a new container with port mapping
+   - Display the access URL
+
+4. The server will be accessible at:
+   http://localhost:8080
+
+STOPPING THE SERVER:
+1. To stop the running container:
+   docker stop carrot-sellers-web
+
+2. The container is configured with --rm flag, so it will be automatically removed when stopped.
+
+VIEWING LOGS:
+- To view server logs while running:
+  docker logs carrot-sellers-web
+
+- To follow logs in real-time:
+  docker logs -f carrot-sellers-web
+
+REBUILDING AFTER CHANGES:
+------------------------
+To see changes after modifying code:
+1. Stop the container: docker stop carrot-sellers-web
+2. Rebuild and start: ./docker-start.sh
+
+ALTERNATIVE METHODS:
+-------------------
+1. Docker Compose production: docker-compose up carrot-sellers (Port 8080)
+2. Docker Compose dev with live reload: docker-compose up carrot-sellers-dev (Port 8000)
+3. Local Python server: ./start-dev-server.sh (Port 8080)
+
+IMPORTANT NOTES:
+---------------
+- Docker is the preferred method for consistency across environments
+- The container builds the site during image creation
+- Default port is 8080 (configurable in docker-start.sh)
+- The container uses Alpine Linux for minimal footprint
+- Full multi-stage build for optimized image size
+
+TECHNICAL DETAILS:
+-----------------
+- Base image: python:3.11-alpine
+- Build stage includes all MkDocs dependencies
+- Runtime stage only includes uvicorn/starlette for serving
+- Static site is pre-built during Docker build
+- Server uses Starlette/Uvicorn for performance

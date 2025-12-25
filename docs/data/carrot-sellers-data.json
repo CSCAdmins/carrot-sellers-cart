@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "generated_at": "2025-12-25T11:51:04.825750",
+    "total_people": 5,
+    "total_quotes": 13,
+    "source": "Carrot Sellers - UFO/UAP Claims Tracker"
+  },
+  "people": [
+    {
+      "name": "David Grusch",
+      "title": "Former Intelligence Officer & Whistleblower",
+      "known_for": "Congressional UAP testimony, crash retrieval claims",
+      "active_since": "2023",
+      "platform": "Congressional testimony, Interviews",
+      "affiliations": "Former AARO, NGA, Air Force",
+      "evidence_score": 0.3,
+      "consistency_score": 0.2,
+      "transparency_score": 0.6,
+      "sensationalism_score": 0.2,
+      "monetization_score": 0.1,
+      "total_score": 1.4,
+      "category": "Generally Reliable",
+      "quotes": [
+        {
+          "date": "July 26, 2023",
+          "source": "House Oversight Committee Hearing",
+          "text": "I was informed in the course of my official duties of a multi-decade UAP crash retrieval and reverse engineering program.",
+          "fact_check_status": "UNVERIFIED",
+          "fact_check_class": "unverified"
+        },
+        {
+          "date": "July 26, 2023",
+          "source": "House Oversight Committee Hearing",
+          "text": "Non-human biologics came with some of these recoveries.",
+          "fact_check_status": "UNVERIFIED",
+          "fact_check_class": "unverified"
+        }
+      ],
+      "profile_url": "people/david-grusch/"
+    },
+    {
+      "name": "Luis Elizondo",
+      "title": "Former Pentagon AATIP Director",
+      "known_for": "AATIP program, \"Imminent\" book, To The Stars Academy",
+      "active_since": "2017",
+      "platform": "Books, TV appearances, Podcasts",
+      "affiliations": "Former Pentagon, To The Stars Academy",
+      "evidence_score": 0.4,
+      "consistency_score": 0.3,
+      "transparency_score": 0.7,
+      "sensationalism_score": 0.6,
+      "monetization_score": 0.4,
+      "total_score": 2.4,
+      "category": "Mixed Record",
+      "quotes": [
+        {
+          "date": "October 11, 2017",
+          "source": "CNN Interview",
+          "text": "My personal belief is that there is very compelling evidence that we may not be alone.",
+          "fact_check_status": "UNVERIFIED",
+          "fact_check_class": "unverified"
+        },
+        {
+          "date": "August 20, 2024",
+          "source": "\"Imminent\" Book Release",
+          "text": "UAPs represent a potential national security threat unlike anything we have ever faced.",
+          "fact_check_status": "UNVERIFIED",
+          "fact_check_class": "unverified"
+        }
+      ],
+      "profile_url": "people/luis-elizondo/"
+    },
+    {
+      "name": "Danny Sheehan",
+      "title": "Attorney & UAP Advocate",
+      "known_for": "New Paradigm Institute, UAP legal advocacy",
+      "active_since": "2020s (UAP focus)",
+      "platform": "Legal filings, Podcasts, Conferences",
+      "affiliations": "New Paradigm Institute, Whistleblower legal representation",
+      "evidence_score": 0.6,
+      "consistency_score": 0.4,
+      "transparency_score": 0.5,
+      "sensationalism_score": 0.7,
+      "monetization_score": 0.5,
+      "total_score": 2.7,
+      "category": "Questionable",
+      "quotes": [
+        {
+          "date": "September 12, 2023",
+          "source": "UAP Disclosure Conference",
+          "text": "We are on the verge of the most significant disclosure in human history.",
+          "fact_check_status": "FALSE",
+          "fact_check_class": "false"
+        },
+        {
+          "date": "May 15, 2023",
+          "source": "Legal Filing",
+          "text": "My client has direct knowledge of crash retrieval operations conducted by the US government.",
+          "fact_check_status": "UNVERIFIED",
+          "fact_check_class": "unverified"
+        }
+      ],
+      "profile_url": "people/danny-sheehan/"
+    },
+    {
+      "name": "Ross Coulthart",
+      "title": "Investigative Journalist & Author",
+      "known_for": "David Grusch interview, \"In Plain Sight\" book, UFO investigations",
+      "active_since": "2020-2021 (UAP focus)",
+      "platform": "NewsNation, Books, Need To Know Podcast",
+      "affiliations": "NewsNation (current), Former Seven Network, Nine Network",
+      "evidence_score": 0.8,
+      "consistency_score": 0.2,
+      "transparency_score": 0.7,
+      "sensationalism_score": 0.9,
+      "monetization_score": 0.6,
+      "total_score": 3.2,
+      "category": "Questionable",
+      "quotes": [
+        {
+          "date": "July 2023",
+          "source": "Project Unity Interview",
+          "text": "Some of these objects are not capable of being moved because they're too bloody big... I know exactly where it is… It's absolutely gobsmacking that it's been kept a secret.",
+          "fact_check_status": "UNVERIFIED",
+          "fact_check_class": "unverified"
+        },
+        {
+          "date": "August 28, 2023",
+          "source": "ABC Media Watch Response",
+          "text": "Belief is an expression of religious faith... My belief is irrelevant. It is not the case that there is no proof at all behind Mr Grusch's allegations.",
+          "fact_check_status": "UNVERIFIED",
+          "fact_check_class": "unverified"
+        },
+        {
+          "date": "August 2023",
+          "source": "NewsNation (Cuomo show)",
+          "text": "There should be an investigation… into what I characterize as the intelligence community's effort to try and discredit a good human being.",
+          "fact_check_status": "FALSE",
+          "fact_check_class": "false"
+        },
+        {
+          "date": "Late 2023",
+          "source": "NewsNation Reality Check",
+          "text": "I was skeptical about CE5 and summoning UAP craft until I witnessed it with Tier 1 operators who are Psionic Assists trained by the US military…",
+          "fact_check_status": "UNVERIFIED",
+          "fact_check_class": "unverified"
+        },
+        {
+          "date": "July 26, 2023",
+          "source": "7NEWS Spotlight Australia",
+          "text": "I don't care if people say this is crazy… I don't care if people laugh or ridicule it, because I know from the sources that I've spoken to, this story will eventually come out.",
+          "fact_check_status": "UNVERIFIED",
+          "fact_check_class": "unverified"
+        }
+      ],
+      "profile_url": "people/ross-coulthart/"
+    },
+    {
+      "name": "Jeremy Corbell",
+      "title": "Filmmaker & UAP Investigator",
+      "known_for": "\"Extraordinary Beliefs\" documentaries, Pentagon video leaks",
+      "active_since": "2018",
+      "platform": "Social media, Documentaries, Podcasts",
+      "affiliations": "Independent filmmaker, Weaponized podcast",
+      "evidence_score": 0.7,
+      "consistency_score": 0.6,
+      "transparency_score": 0.8,
+      "sensationalism_score": 1.0,
+      "monetization_score": 0.7,
+      "total_score": 3.8,
+      "category": "Major Carrot Seller",
+      "quotes": [
+        {
+          "date": "April 28, 2020",
+          "source": "Twitter/X Post",
+          "text": "BOMBSHELL: The Pentagon has more videos. This is just the beginning of disclosure.",
+          "fact_check_status": "UNVERIFIED",
+          "fact_check_class": "unverified"
+        },
+        {
+          "date": "July 15, 2021",
+          "source": "\"TMZ Presents: UFO Revolution\"",
+          "text": "I have obtained videos that will change everything we know about UAPs.",
+          "fact_check_status": "UNVERIFIED",
+          "fact_check_class": "unverified"
+        }
+      ],
+      "profile_url": "people/jeremy-corbell/"
+    }
+  ]
+}

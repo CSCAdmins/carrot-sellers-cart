@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300">
+  <rect width="300" height="300" fill="#f8f9fa"/>
+  <circle cx="150" cy="120" r="50" fill="#dee2e6"/>
+  <path d="M75 225 Q150 200 225 225 L225 300 L75 300 Z" fill="#dee2e6"/>
+  <text x="150" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#6c757d">Ross Coulthart</text>
+</svg>

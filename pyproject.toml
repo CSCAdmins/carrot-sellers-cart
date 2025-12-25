@@ -1,0 +1,40 @@
+[project]
+name = "carrot-sellers-site"
+version = "0.1.0"
+description = "UFO/UAP talking heads tracker using MkDocs"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "mkdocs>=1.5.0",
+    "mkdocs-simple-blog>=0.0.9",
+    "mkdocs-material>=9.0.0",
+    "mkdocs-material-extensions>=1.3.0", 
+    "pymdown-extensions>=10.0",
+    "Pygments>=2.16.0",
+    "mkdocs-macros-plugin>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.1.0",
+    "black>=23.0.0",
+]
+server = [
+    "uvicorn>=0.25.0",
+    "starlette>=0.35.0",
+]
+
+[tool.ruff]
+line-length = 88
+target-version = "py39"
+
+[tool.black]
+line-length = 88
+target-version = ["py39"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = []

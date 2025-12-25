@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48">
+  <!-- Carrot body -->
+  <path d="M24 8 L20 16 L19 24 C19 28 17 32 17 32 S21.5 34 24 34 S31 32 31 32 S29 28 29 24 L28 16 L24 8 Z" 
+        fill="#ff6b35" stroke="#e55a2b" stroke-width="1"/>
+  
+  <!-- Carrot leaves -->
+  <path d="M24 8 S20 6 16 8" stroke="#4caf50" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M24 8 S28 6 32 8" stroke="#4caf50" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M24 8 S22 4 18 6" stroke="#66bb6a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <path d="M24 8 S26 4 30 6" stroke="#66bb6a" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Carrot lines -->
+  <line x1="21" y1="18" x2="27" y2="18" stroke="#e55a2b" stroke-width="0.5"/>
+  <line x1="20" y1="22" x2="28" y2="22" stroke="#e55a2b" stroke-width="0.5"/>
+  <line x1="19" y1="26" x2="29" y2="26" stroke="#e55a2b" stroke-width="0.5"/>
+  <line x1="18" y1="30" x2="30" y2="30" stroke="#e55a2b" stroke-width="0.5"/>
+  
+  <!-- Carrot tip -->
+  <path d="M24 34 L22 42 L24 44 L26 42 Z" fill="#ff6b35" stroke="#e55a2b" stroke-width="1"/>
+</svg>
