@@ -51,13 +51,14 @@ Each quote must include:
 
 Copy everything below this line for your submission:
 
+{% raw %}
 ```markdown
 <div class="person-header">
     <img src="../../assets/images/people/FILENAME.svg" alt="NAME" class="person-image">
     <div class="person-info">
         <div class="person-name">FULL NAME</div>
         <div class="person-title">TITLE/ROLE</div>
-        {{ score_breakdown(evidence=0.X, consistency=0.X, transparency=0.X, sensationalism=0.X, monetization=0.X, evidence_note="WHY", consistency_note="WHY", transparency_note="WHY", sensationalism_note="WHY", monetization_note="WHY") }}
+        {{ score_breakdown(evidence=0.5, consistency=0.5, transparency=0.5, sensationalism=0.5, monetization=0.5, evidence_note="WHY", consistency_note="WHY", transparency_note="WHY", sensationalism_note="WHY", monetization_note="WHY") }}
         <div class="info-grid">
             <span class="info-item"><span class="info-label">Known For:</span> <span class="info-value">WHAT</span></span>
             <span class="info-item"><span class="info-label">Active:</span> <span class="info-value">YEAR</span></span>
@@ -99,6 +100,7 @@ Copy everything below this line for your submission:
 
 <small>**Last Updated:** {{ last_updated() }}</small>
 ```
+{% endraw %}
 
 ---
 
